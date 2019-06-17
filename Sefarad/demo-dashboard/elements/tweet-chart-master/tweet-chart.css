@@ -1,0 +1,55 @@
+:host {
+  margin: 0;
+  padding: 0;
+  max-width: 350px;
+  height: 300px;
+}
+
+.top-bar{
+  width: 100%; 
+  background-color: #B58171; 
+  border-radius: 5px 5px 0 0; 
+  color: white; 
+  text-align: center; 
+  height: 35px; 
+  line-height: 35px;
+}
+
+.top-bar span {
+  vertical-align: middle;
+}
+
+paper-icon-button.green {
+  color: var(--paper-green-500);
+}
+
+paper-icon-button.green:hover {
+  background: var(--paper-green-50);
+  border-radius: 50%;
+}
+
+.tweet {
+  
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  height: 80px;
+
+}
+
+.positive {
+  background: rgba(76, 175, 80, 0.85);
+}
+
+.negative {
+  background: rgba(221, 75, 57, 0.88);
+}
+
+.neutral {
+  background: #e3bea6;
+}
+
+.text {
+  font-size: 17px;
+  font-weight: bold;
+}

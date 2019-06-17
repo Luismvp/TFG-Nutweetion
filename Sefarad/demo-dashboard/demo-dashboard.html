@@ -1,0 +1,556 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/bower_components/paper-material/paper-material.html">
+<link rel="import" href="/bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="/bower_components/iron-pages/iron-pages.html">
+<link rel="import" href="/elements/google-chart-elasticsearch/google-chart.html">
+<link rel="import" href="/bower_components/happymap-element/happymap-element.html">
+<link rel="import" href="/elements/material-search/material-search.html">
+<link rel="import" href="/elements/tweet-chart-master/tweet-chart.html">
+<link rel="import" href="/elements/number-chart-master/number-chart.html">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+<dom-module id="demo-dashboard">
+
+  <link rel="import" type="css" href="demo-dashboard.css">
+  <link rel="import" href="/styles/app-theme.html" type="css">
+  <link rel="import" href="/styles/main.css" type="css">
+
+  <template>
+    <iron-ajax auto
+        url="queries.json"
+        handle-as="json"
+        last-response="{{queries}}">
+      
+    </iron-ajax>
+    <div style="display: flex;flex-direction: row;justify-content: center;align-content: center;width: 100%;margin-top: 20px;">
+      <div class="top">
+        <img src="img/NutweetionLogo.png" style="object-fit: cover;">
+      </div>
+    </div>
+
+  
+    <iron-pages selected="{{selected}}" style="margin-bottom: 35px; padding-top: 48px;" >
+      <div>
+      <material-search active=True search-value="{{query}}"></material-search>
+      <div class="row" style="height: 300px; overflow: hidden;margin-top: 15px;">
+        <div class="col-md-12" style="height: 100%;overflow: hidden;">
+          <div style="margin-bottom: 15px">
+            <google-chart 
+                data="{{data}}"
+                field="ComunidadAutonoma"
+                type='column'
+                filters="{{filters}}"
+                icon='maps:map'
+                param='{{param}}'
+                options='{"title": "Autonomous Communities"}'
+                optionsbi='{"colors": ["#E3BEA6"],"is3D":"true"}'
+                cols='[{"label": "ComunidadAutonoma", "type": "string"},{"label": "Amount of tweets", "type": "number"}]' '<!-- visalized data in case of connection error -->'>
+            </google-chart>         
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6" style="min-height: 300px; overflow: hidden;margin-top: 20px;">
+          <google-chart 
+                data="{{data}}"
+                field="Health"
+                type='pie'
+                filters="{{filters}}"
+                icon='icons:thumbs-up-down'
+                param='{{param}}'
+                options='{"title": "Healthy (1) and Unhealthy (0) Tweets"}'
+                optionsbi='{"colors": ["#E3BEA6","#9FABAF"],"is3D":"true"}'
+                cols='[{"label": "Health", "type": "string"},{"label": "Count", "type": "number"}]' '<!-- visalized data in case of connection error -->'>
+          </google-chart> 
+        </div>
+        <div class="col-md-6" style="margin-top:20px">
+          <number-chart 
+            data="{{data}}"
+            filters="{{filters}}"
+            aggkey="Gender"
+            title="Male"
+            icon="img/male.png"
+            subtitle="Total"
+            stylebg="bg-aqua"
+            object="male">
+          </number-chart>
+          <number-chart 
+            data="{{data}}"
+            filters="{{filters}}"
+            aggkey="Gender"
+            title="Female"
+            icon="img/female.png"
+            subtitle="Total"
+            stylebg="bg-green"
+            object="female">
+          </number-chart>
+          <number-chart 
+            data="{{data}}"
+            filters="{{filters}}"
+            aggkey="Gender"
+            title="Gender Unspecified"
+            icon="img/unspecified.png"
+            subtitle="Total"
+            stylebg="bg-yellow"
+            object="">
+          </number-chart>
+        </div>
+      </div>
+      <div class="row" style="height: 300px; overflow: hidden;margin-top: 15px;">
+        <div class="col-md-12" style="height: 100%;overflow: hidden;">
+          <div style="margin-bottom: 15px">
+            <google-chart 
+                data="{{_getHours(data)}}"
+                field="created_at"
+                type='area'
+                filters="{{filters}}"
+                icon='maps:map'
+                param='{{param}}'
+                options='{"title": "Time of creation"}'
+                optionsbi='{"colors": ["#5E4F42"],"is3D":"true"}'
+                cols='[{"label": "created_at", "type": "string"},{"label": "Amount of tweets", "type": "number"}]' '<!-- visalized data in case of connection error -->'>
+            </google-chart>         
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12" style="min-height: 300px; overflow: hidden;margin-top: 15px;">
+          <google-chart 
+                data="{{_getNutrients(data)}}"
+                field="Calorias"
+                type='column'
+                filters="{{filters}}"
+                icon='icons:thumbs-up-down'
+                param='{{param}}'
+                options='{"title": "Nutrient Mean in the Tweets that meet the requirements"}'
+                optionsbi='{"colors": ["#E3BEA6"], "is3D":"true"}'
+                cols='[{"label": "Calorias g", "type": "string"},{"label": "Mean", "type": "number"}]' '<!-- visalized data in case of connection error -->'>
+          </google-chart>  
+        </div>
+      <div class="row">
+     
+        <div class="col-md-6 pull-right" class="map" style="margin-top: 15px; padding-left:0px; max-width:585px; margin-right:1.2%">
+          <tweet-chart
+            datos="{{data}}"   
+            icon='icons:list'>
+          </tweet-chart>
+        </div>
+        <div class="col-md-6" style="margin-top: 15px; margin-left:1.2%;max-width:585px;">
+          <div class="top_bar_happy_map">
+      
+            <iron-icon icon="maps:place" class="style-scope dashboard-somedi x-scope iron-icon-1">>
+            </iron-icon>
+        
+            
+            <span class="style-scope google-chart">Geolocation of the tweets</span>
+          </div>
+
+          <happymap-element
+              data="{{getPlaces(data)}}"
+              filters="[[filters]]"
+              '<!-- visalized data in case of connection error -->'>
+          </happymap-element>
+        </div>
+      </div>
+
+      </div>
+      
+      
+      
+    </iron-pages>
+
+
+  <div class="footer" style="margin-top: 10px">
+    <img class="gsi_logo" src="img/gsi_blanco.svg">
+  </div>
+  
+
+
+  </template>
+
+  <script>
+  var ready = false;
+    Polymer({
+      is: 'demo-dashboard',
+      properties: {
+        selected: {
+          type: Number,
+          value: 0
+        }, 
+
+        ids:{
+          type: Array
+          /*value: ["481","482","32512","32420","91963","96677","160677","131425","322429","322612"]*/
+           
+        },
+        data:{
+          type: Object
+        },
+        client: {
+          type: Object,
+          notify: true,
+          observer: '_clientChanged'              
+        },
+        fields: {
+          type: Array,
+          value: function() { return []; }
+        },
+
+        places: {
+          type: Array,
+          notify: true,
+          value: []
+        },
+
+        filters: {
+          type: Array,
+          notify: true,
+          value: function() { return []; }
+        }
+      },
+    
+      observers: [
+      '_filtersChange(filters.*)'
+      ],
+      behaviors: [
+        Polymer.IronA11yKeysBehavior
+      ],
+      keyBindings: {
+        'enter': '_search'
+      },
+
+
+      ready: function(){
+        console.log("ready");
+      },
+      
+      addPlace: function(event) {
+        this.set('places', this.places.concat(event.detail.response))
+        console.log(this.places)
+      },
+      
+      getName: function(id) {
+        return "http://tour-pedia.org/api/getPlaceDetails?id=" + id
+      },
+      getPlaces: function(data){
+        var places = []
+        var lat=0.0
+        var long=0.0
+        data.hits.hits.forEach( function (entry){
+            lat=parseFloat(entry._source.lat)
+            long=parseFloat(entry._source.long)
+            places.push({'lat': lat, 'lon':long})
+            }
+        )
+        
+        return places
+      },
+      _getHours: function(data){
+        var hours = []
+        var one=0
+        var two=0
+        var three=0
+        var four=0
+        var five=0
+        var six=0
+        var seven=0
+        var eight=0
+        var nine=0
+        var ten=0
+        var eleven=0
+        var twelve=0
+        var thirteen=0
+        var fourteen=0
+        var fifteen=0
+        var sixteen=0
+        var seventeen=0
+        var eighteen=0
+        var nineteen=0
+        var twenty=0
+        var twentyone=0
+        var twentytwo=0
+        var twentythree=0
+        var twentyfour=0
+        data.hits.hits.forEach( function (entry){
+            if (entry._source.created_at == 0){
+              twentyfour++
+            }else if (entry._source.created_at == 1){
+              one++
+            }else if (entry._source.created_at == 2){
+              two++
+            }else if (entry._source.created_at == 3){
+              three++
+            }else if (entry._source.created_at == 4){
+              four++
+            }else if (entry._source.created_at == 5){
+              five++
+            }else if (entry._source.created_at == 6){
+              six++
+            }else if (entry._source.created_at == 7){
+              seven++
+            }else if (entry._source.created_at == 8){
+              eight++
+            }else if (entry._source.created_at == 9){
+              nine++
+            }else if (entry._source.created_at == 10){
+              ten++
+            }else if (entry._source.created_at == 11){
+              eleven++
+            }else if (entry._source.created_at == 12){
+              twelve++
+            }else if (entry._source.created_at == 13){
+              thirteen++
+            }else if (entry._source.created_at == 14){
+              fourteen++
+            }else if (entry._source.created_at == 15){
+              fifteen++
+            }else if (entry._source.created_at == 16){
+              sixteen++
+            }else if (entry._source.created_at == 17){
+              seventeen++
+            }else if (entry._source.created_at == 18){
+              eighteen++
+            }else if (entry._source.created_at == 19){
+              nineteen++
+            }else if (entry._source.created_at == 20){
+              twenty++
+            }else if (entry._source.created_at == 21){
+              twentyone++
+            }else if (entry._source.created_at == 22){
+              twentytwo++
+            }else{
+              twentythree++
+            }
+          }
+        )
+        hours.push(['1',one*10])
+        hours.push(['2',two*10])
+        hours.push(['3',three*10])
+        hours.push(['4',four*10])
+        hours.push(['5',five*10])
+        hours.push(['6',six*10])
+        hours.push(['7',seven*10])
+        hours.push(['8',eight*10])
+        hours.push(['9',nine*10])
+        hours.push(['10',ten*10])
+        hours.push(['11',eleven*10])
+        hours.push(['12',twelve*10])
+        hours.push(['13',thirteen*10])
+        hours.push(['14',fourteen*10])
+        hours.push(['15',fifteen*10])
+        hours.push(['16',sixteen*10])
+        hours.push(['17',seventeen*10])
+        hours.push(['18',eighteen*10])
+        hours.push(['19',nineteen*10])
+        hours.push(['20',twenty*10])
+        hours.push(['21',twentyone*10])
+        hours.push(['22',twentytwo*10])
+        hours.push(['23',twentythree*10])
+        hours.push(['24',twentyfour*10])
+        return hours
+      },
+      _getNutrients: function(data){
+          var nutrients = []
+          var calories=0.0
+          var calmean=0.0
+          var carbohydrates=0.0
+          var carbmean=0.0
+          var fats=0.0
+          var fatmean=0.0
+          var protein=0.0
+          var proteinmean=0.0
+          var cholesterol=0.0
+          var cholmean=0.0
+          var fiber=0.0
+          var fibermean=0.0
+          var n = 0
+          data.hits.hits.forEach( function (entry){
+              n++;
+              calories= calories + parseFloat(entry._source.Calorias);
+              carbohydrates = carbohydrates + parseFloat(entry._source.Hidratos);
+              fats= fats + parseFloat(entry._source.Grasas);
+              protein= protein + parseFloat(entry._source.Proteinas);
+              cholesterol= cholesterol + parseFloat(entry._source.Colesterol);
+              fiber= fiber + parseFloat(entry._source.Fibra);
+              }
+          )
+          console.log('los tweets que saca la query son' + n)
+          calmean = calories/n
+          carbmean= carbohydrates/n
+          fatmean= fats/n
+          proteinmean= protein/n
+          cholmean= cholesterol/n
+          fibermean= fiber/n
+          nutrients.push(['Calories (kcal)',(calmean)])
+          nutrients.push(['Carbohydrates (g)',(carbmean)])
+          nutrients.push(['Fats (g)',(fatmean)])
+          nutrients.push(['Proteins (g)',(proteinmean)])
+          nutrients.push(['Cholesterol (mg)',(cholmean)])
+          nutrients.push(['Fiber (g)',(fibermean)])
+          return nutrients
+      },
+      getPoints: function(f) {
+        return f.base;
+      },
+
+      _clientChanged: function() {
+        console.log("ClientChanged");
+        ready = true;
+        this._query();
+      },
+      _filtersChange: function() {
+        this._query();
+       },
+       _search: function(){
+        //console.log("search fired")
+        //console.log(this.query.length)
+        if (this.query.length == 0){
+          //console.log("default search fired")
+          this.filters = [];
+          this._query()
+        }
+        else {
+          this.push('filters', {terms: {'text': [this.query]}});
+          this._query()
+        }
+      },
+       _query: function() {
+        console.log("_filtersChangedash")
+        var that = this;
+        console.log("Ready?: ", ready);
+        if(ready){
+          this.client.search({
+          // undocumented params are appended to the query string
+          index: "tweetnutweetion8",
+          type: "tweet",
+          body: {
+            size: 300,
+            query: {
+              bool: {
+                must: this.filters,
+              }
+            },
+            aggs: {
+              Health: {
+                terms: {
+                  field: "Health.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              },
+              ComunidadAutonoma: {
+                terms: {
+                  field: "ComunidadAutonoma.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              },
+              Gender: {
+                terms: {
+                  field: "Gender.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              },
+              Calorias: {
+                terms: {
+                  field: "Calorias.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              },
+              Hidratos: {
+                terms: {
+                  field: "Hidratos.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              },
+              Grasas: {
+                terms: {
+                  field: "Grasas.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              },
+              Proteinas: {
+                terms: {
+                  field: "Proteinas.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              },
+              Colesterol: {
+                terms: {
+                  field: "Colesterol.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              },
+              Fibra: {
+                terms: {
+                  field: "Fibra.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              },
+              created_at: {
+                terms: {
+                  field: "created_at.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              },
+              lat: {
+                terms: {
+                  field: "lat.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              },
+              long: {
+                terms: {
+                  field: "long.keyword",
+                  order: {
+                    _count: "desc"
+                  }
+                }
+              }
+            }      
+          }
+          }).then(function (resp) {
+            var myids = []
+            resp.hits.hits.forEach(function(entry){myids.push(entry._id)})
+            that.ids = myids;
+            //console.log(that.ids)
+            that.data = resp;
+            //console.log("DATA: "+that.data)
+            
+            });
+        }
+      }
+    });
+  </script>
+
+</dom-module>

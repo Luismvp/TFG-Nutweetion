@@ -1,0 +1,41 @@
+version: '2'
+
+services:
+  dashboard:
+    build: .
+    ports:
+     - "8080:8080"
+    environment:
+      - ES_ENDPOINT_EXTERNAL=${ES_ENDPOINT_EXTERNAL}
+      - FUSEKI_ENDPOINT_EXTERNAL=${FUSEKI_ENDPOINT_EXTERNAL}
+    volumes:
+     - .:/usr/src/app
+    networks:
+      - dashboard-network
+
+  elasticsearch:
+    image: "docker.elastic.co/elasticsearch/elasticsearch:5.5.2"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    environment:
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=false
+      - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
+      - "xpack.security.enabled=false"
+      - "http.cors.enabled=true"
+      - 'http.cors.allow-origin=*'
+    volumes:
+      - es-data:/usr/share/elasticsearch/data/
+    ports:
+      - 9200:9200
+      - 9300:9300
+    networks:
+      - dashboard-network
+
+volumes:
+  es-data:
+networks:
+  dashboard-network:
+    driver: bridge

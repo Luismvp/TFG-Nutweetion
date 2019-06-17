@@ -1,0 +1,391 @@
+,Comida,Comida Cap,Comida May,Calorias,Categoria,Hidratos de C,Grasas,Proteinas,Colesterol,Fibra,Catalán
+0,pizza,Pizza,PIZZA,477,Comida rapida,"22,2","9,8","8,2",16,"1,7",pizza
+1,té,Té,TÉ,36,Bebidas,"2,45","2,3654","1,7",7,0,te
+2,cafe,Cafe,CAFE,38,Bebidas,"2,45","2,3654","1,7",8,0,cafè
+3,helado,Helado,HELADO,228,Productos lacteos,"28,2",11,"3,8",34,"1,2",gelat
+4,crema agria,Crema agria,CREMA AGRIA,121,Productos lacteos,"23,99","2,38","0,48",0,"0,8",crema agra
+5,pollo,Pollo,POLLO,166,Productos avicolas,0,"9,6","19,9",99,0,pollastre
+6,queso,Queso,QUESO,450,Productos lacteos,"0,51",34,"35,77","74,4",0,formatge
+7,coca-cola,Coca-Cola,COCA-COLA,44,Bebidas,"10,85",0,0,0,0,coca cola
+8,huevo,Huevo,HUEVO,150,Productos lacteos,"0,3","11,1","12,5",385,0,ou
+9,jamón,Jamón,JAMÓN,319,Carnes,"0,2","22,6","28,8",84,0,pernil
+10,tarta,Tarta,TARTA,401,Dulces,"49,2","20,2","5,2","101,3","1,2",pastís
+11,vino,Vino,VINO,71,Bebidas Alcoholicas,"0,3",0,"0,23",0,0,vi
+12,cerveza,Cerveza,CERVEZA,42,Bebidas Alcoholicas,"3,12",0,"0,5",0,0,cervesa
+13,maiz,Maiz,MAIZ,392,Cereales y derivados,"85,6","0,96","8,4",0,"85,5",blat de moro
+14,arroz,Arroz,ARROZ,387,Cereales y derivados,86,"0,9",7,0,"0,2",arròs
+15,bacon,Bacon,BACON,292,Carnes,0,"22,1","23,4",80,0,bacó
+16,sopa,Sopa,SOPA,321,Sopas,"58,24","4,34","10,99",74,"2,2",sopa
+17,leche,Leche,LECHE,65,Productos lacteos,"4,7","3,8","3,06",14,0,llet
+18,costillas,Costillas,COSTILLAS,234,Carnes,0,"23,6","17,1",77,0,costelles
+19,guisante,Guisante,GUISANTE,67,Vegetales,"9,7","0,5","5,6",0,"3,36",pèsol
+20,snack,Snack,SNACK,509,Dulces,"58,2","25,9","10,3",0,"6,3",snack
+21,chuches,Chuches,CHUCHES,389,Dulces,95,0,"0,4",0,0,llaminadures
+22,salsa,Salsa,SALSA,"198,91",Sopas,"9,52","16,04","3,93","18,06","1,14",salsa
+23,cereales,Cereales,CEREALES,"376,16",Cereales y derivados,"78,125","2,85","7,81",0,"4,88",cereals
+24,plátano,Plátano,PLÁTANO,89,Frutas,20,"0,3","1,2",0,"3,4",plàtan
+25,banana,Banana,BANANA,89,Frutas,20,"0,3","1,2",0,"3,4",plàtan
+26,cookie,Cookie,COOKIE,491,Dulces,"64,3","22,92","6,2",88,"1,8",cookie
+27,galletas,Galletas,GALLETAS,483,Dulces,"64,31","21,77","6,76","50,17","3,21",galeta
+28,carne,Carne,CARNE,"161,5",Carnes,0,8,"22,1","66,7",0,carn
+29,pescado,Pescado,PESCADO,96,"Pescado, moluscos y marisco",0,"1,6","20,1","53,6",0,peix
+30,fruta,Fruta,FRUTA,107,Frutas,25,"0,1","0,9",0,"1,1",fruita
+31,chocolate,Chocolate,CHOCOLATE,"542,66",Dulces,"59,23","30,53","7,29",20,"0,53",xocolata
+32,patatas,Patatas,PATATAS,538,Vegetales,"49,5","34,9","6,5",0,4,patates
+33,cacahuetes,Cacahuetes,CACAHUETES,578,Frutos secos,"7,97","48,79","25,51",0,"7,8",cacauets
+34,avena,Avena,AVENA,401,Cereales y derivados,"66,3","6,9","16,9",0,"10,6",civada
+35,ternera,Ternera,TERNERA,222,Carnes,0,"11,43","29,5",107,0,vedella
+36,vainilla,Vainilla,VAINILLA,53,Hierbas y especias,"12,7","0,06","0,06",0,0,vainilla
+37,fresa,Fresa,FRESA,36,Frutas,7,"0,5","0,7",0,"2,2",maduixa
+38,mantequilla,Mantequilla,MANTEQUILLA,503,Productos lacteos,0,"55,1","3,3",106,0,mantega
+39,calabaza,Calabaza,CALABAZA,32,Vegetales,"5,6","0,5","1,2",0,"2,4",carbassa
+40,perrito caliente,Perrito caliente,PERRITO CALIENTE,"313,75",Comida rapida,"1,26","28,45","13,67","67,42","0,02",gosset calent
+41,salchicha,Salchicha,SALCHICHA,"313,75",Carnes,"1,26","28,45","13,67","67,42","0,02",salsitxa
+42,jengibre,Jengibre,JENGIBRE,52,Hierbas y especias,"9,5","0,7","1,7",0,0,gingebre
+43,cerdo,Cerdo,CERDO,271,Carnes,0,"17,04","27,34",90,0,porc
+44,cubierta de chocolate,Cubierta de chocolate,CUBIERTA DE CHOCOLATE,"542,66",Dulces,"59,23","30,53","7,29",20,"0,53",coberta de xocolata
+45,pasta,Pasta,PASTA,252,Cereales y derivados,"47,44","2,26","9,35",30,"4,58",pasta
+46,crackers,Crackers,CRACKERS,409,Reposteria y panaderia,"69,2",10,"9,4",0,"3,2",crackers
+47,aceitunas,Aceitunas,ACEITUNAS,120,Vegetales,1,"12,5","1,3",0,"4,8",olives
+48,patatas dulces,Patatas dulces,PATATAS DULCES,101,Vegetales,23,"0,3","1,2",0,"2,9",patates dolces
+49,ajo,Ajo,AJO,"196,66",Vegetales,"37,66","0,51","9,39",0,"3,91",all
+50,pavo,Pavo,PAVO,119,Productos avicolas,0,"2,86","21,77",65,0,gall dindi
+51,yogur,Yogur,YOGUR,73,Productos lacteos,"5,4","3,9","4,3",0,0,iogurt
+52,zumo,Zumo,ZUMO,43,Bebidas,"9,8",0,0,0,0,suc
+53,pepinillos,Pepinillos,PEPINILLOS,16,Vegetales,"2,6","0,1","1,04",0,"1,2",cogombres
+54,canela,Canela,CANELA,373,Hierbas y especias,"80,59","3,2","3,9",0,"54,3",canyella
+55,pimienta,Pimienta,PIMIENTA,232,Hierbas y especias,"42,4","2,1","10,4",0,"26,2",pebre
+56,vegetales,Vegetales,VEGETALES,135,Vegetales,"8,61","11,55","1,49",0,"3,1",vegetals
+57,salmón,Salmón,SALMÓN,146,"Pescado, moluscos y marisco",0,"5,93","21,62",45,0,salmó
+58,piña,Piña,PIÑA,49,Frutas,"11,5",0,"0,5",0,"1,2",pinya
+59,noodles con pollo,Noodles con pollo,NOODLES CON POLLO,90,Sopas,14,"0,8","5,4",25,0,noodles amb pollastre
+60,cangrejo,Cangrejo,CANGREJO,108,"Pescado, moluscos y marisco",0,"1,76","20,03",99,0,cranc
+61,limonada,Limonada,LIMONADA,12,Bebidas,"1,9","0,2","0,5",0,"2,8",llimonada
+62,espinacas,Espinacas,ESPINACAS,22,Vegetales,"1,94","0,49","2,39",0,"1,84",espinacs
+63,pepperoni,Pepperoni,PEPPERONI,323,Carnes,"1,9","23,1",27,"72,6",0,pepperoni
+64,mermelada,Mermelada,MERMELADA,260,Vegetales,"66,63","0,14","0,54",0,"0,7",melmelada
+65,mozzarela,Mozzarela,MOZZARELA,223,Productos lacteos,0,"16,1","19,5",78,0,mozzarella
+66,hamburguesa,Hamburguesa,HAMBURGUESA,510,Comida rapida,"47,5","25,2","22,76",59,"4,1",hamburguesa
+67,ostras,Ostras,OSTRAS,64,"Pescado, moluscos y marisco","2,76","2,21","8,14","53,5",0,ostres
+68,zumo de naranja,Zumo de naranja,ZUMO DE NARANJA,41,Bebidas,9,"0,2","0,7",0,"0,1",suc de taronja
+69,tomates,Tomates,TOMATES,19,Vegetales,"3,5","0,1","0,9",0,"1,1",tomàquets
+70,coco,Coco,COCO,373,Frutas,"15,2","33,5","3,3",0,9,coco
+71,sandwich de helado,Sandwich de helado,SANDWICH DE HELADO,211,Productos lacteos,"24,4","10,8","3,9",30,0,sandvitx de gelat
+72,zanahorias,Zanahorias,ZANAHORIAS,34,Vegetales,7,"0,3","0,8",0,"2,6",pastanagues
+73,leche de almendras,Leche de almendras,LECHE DE ALMENDRAS,353,Bebidas,60,"5,5","14,5",0,6,llet d'ametlles
+74,trigo,Trigo,TRIGO,314,Cereales y derivados,61,2,"11,7",0,"10,3",blat
+75,cheddar,Cheddar,CHEDDAR,405,Productos lacteos,"0,1","33,59",26,110,0,cheddar
+76,sandía,Sandía,SANDÍA,20,Frutas,"4,5",0,"0,4",0,"0,5",síndria
+77,cono de helado,Cono de helado,CONO DE HELADO,211,Productos lacteos,"24,4","10,8","3,9",30,0,con de gelat
+78,pimientos,Pimientos,PIMIENTOS,29,Vegetales,"4,5","0,6","1,3",0,"1,8",pebrots
+79,vegetal,Vegetal,VEGETAL,135,Vegetales,"8,61","11,55","1,49",0,"3,1",vegetal
+80,parmesano,Parmesano,PARMESANO,367,Productos lacteos,0,"26,5","32,3",80,0,parmesà
+81,manzanas,Manzanas,MANZANAS,50,Frutas,12,0,"0,3",0,2,pomes
+82,melocotones,Melocotones,MELOCOTONES,39,Frutas,9,0,"0,6",0,"1,4",préssecs
+83,acelga,Acelga,ACELGA,29,Vegetales,"4,37","0,39","1,9",0,"0,8",bleda
+84,lechuga,Lechuga,LECHUGA,16,Vegetales,"1,4","0,6","1,12",0,"1,5",enciam
+85,menta,Menta,MENTA,44,Hierbas y especias,"5,3","0,73","3,8",0,"6,8",menta
+86,sopa de tomate,Sopa de tomate,SOPA DE TOMATE,73,Sopas,"12,9","0,2","4,5",0,"2,8",sopa de tomàquet
+87,col rizada,Col rizada,COL RIZADA,34,Vegetales,"1,4","1,6","3,4",0,"3,3",col arrissada
+88,champiñones,Champiñones,CHAMPIÑONES,26,Vegetales,4,"0,3","1,8",0,"2,5",xampinyons
+89,ensalada de patata,Ensalada de patata,ENSALADA DE PATATA,225,Vegetales,"49,05","0,9","5,4",0,"9,16",amanida de patata
+90,pechuga de pollo,Pechuga de pollo,PECHUGA DE POLLO,146,Productos avicolas,0,"6,2","22,2",62,0,pit de pollastre
+91,ginger ale,Ginger ale,GINGER ALE,38,Bebidas Alcoholicas,"9,2",0,0,0,0,ginger ale
+92,judías verdes,Judías verdes,JUDÍAS VERDES,84,Vegetales,"3,94","6,79","1,78",0,"2,25",mongetes tendres
+93,uvas,Uvas,UVAS,72,Frutas,"15,5","0,7","0,6",0,"0,4",raïm
+94,ensalada de fruta,Ensalada de fruta,ENSALADA DE FRUTA,107,Frutas,25,"0,1","0,9",0,"1,1",amanida de fruita
+95,teriyaki,Teriyaki,TERIYAKI,84,Salsas,"15,95",0,"5,93",0,"0,1",teriyaki
+96,cebolla,Cebolla,CEBOLLA,26,Vegetales,"5,3",0,"1,125",0,"1,8",ceba
+97,pepino,Pepino,PEPINO,12,Vegetales,2,"0,1","0,7",0,"0,8",cogombre
+98,pretzels,Pretzels,PRETZELS,409,Dulces,"69,2",10,"9,4",0,"3,2",pretzels
+99,calabacín,Calabacín,CALABACÍN,18,Vegetales,"1,76","0,39","1,76",0,"1,6",carbassó
+100,fresa y plátano,Fresa y plátano,FRESA Y PLÁTANO,125,Frutas,27,"0,8","1,9",0,"5,6",maduixa i plàtan
+101,ramen,Ramen,RAMEN,436,Cereales y derivados,63,16,10,0,"2,3",ramen
+102,naranjas,Naranjas,NARANJAS,76,Frutas,"17,2",0,"1,6",0,4,taronges
+103,ganso,Ganso,GANSO,133,Productos avicolas,"6,3","4,28","16,37",515,0,oca
+104,brócoli,Brócoli,BRÓCOLI,26,Vegetales,"2,4","0,4",3,0,3,bròquil
+105,bacon de pavo,Bacon de pavo,BACON DE PAVO,292,Carnes,0,"22,1","23,4",80,0,bacó de gall dindi
+106,sopa de patata,Sopa de patata,SOPA DE PATATA,149,Sopas,23,"4,7","3,5","12,6",1,sopa de patata
+107,berenjena,Berenjena,BERENJENA,299,Vegetales,"2,7","31,9","1,2",0,"2,9",albergínia
+108,guisantes,Guisantes,GUISANTES,67,Vegetales,"9,7","0,5","5,6",0,"3,36",pèsols
+109,granola,Granola,GRANOLA,372,Cereales y derivados,"65,8","6,9","10,3","0,3","6,1",granola
+110,miel y mostaza,Miel y mostaza,MIEL Y MOSTAZA,133,Salsas,5,10,"5,9",0,"1,3",mel i mostassa
+111,aros de cebolla,Aros de cebolla,AROS DE CEBOLLA,332,Comida rapida,"37,74","18,69","4,46",17,"1,8",anelles de ceba
+112,peras,Peras,PERAS,90,Frutas,"21,2",0,"0,8",0,"4,6",peres
+113,mostaza,Mostaza,MOSTAZA,133,Hierbas y especias,5,10,"5,9",0,"1,3",mostassa
+114,sesamo,Sesamo,SESAMO,562,Hierbas y especias,10,50,19,0,11,sèsam
+115,paté,Paté,PATÉ,290,Productos avicolas,"11,3",28,"11,9",96,0,paté
+116,ravioli,Ravioli,RAVIOLI,101,Cereales y derivados,"12,7","3,36","4,7",23,"1,8",ravioli
+117,frijoles,Frijoles,FRIJOLES,247,Legumbres,"35,11","0,83","23,58",0,"24,9",fesols
+118,mantequilla de almendra,Mantequilla de almendra,MANTEQUILLA DE ALMENDRA,633,Frutos secos,"21,22","59,1","15,08",0,"3,7",mantega d'ametlla
+119,almendras,Almendras,ALMENDRAS,589,Frutos secos,"6,2","45,22","19,13",0,"8,34",ametlles
+120,avellana,Avellana,AVELLANA,656,Frutos secos,"10,5","56,25",12,0,"8,22",avellana
+121,jalapeño,Jalapeño,JALAPEÑO,27,Vegetales,"4,7","0,94","0,92",0,"2,6",jalapeño
+122,cabra,Cabra,CABRA,109,Carnes,0,"2,31","20,6",57,0,cabra
+123,sprite,Sprite,SPRITE,84,Bebidas,21,0,0,0,0,sprite
+124,leche de coco,Leche de coco,LECHE DE COCO,209,Bebidas,"2,8","21,3",2,0,0,llet de coco
+125,nuez,Nuez,NUEZ,595,Frutos secos,"3,3","63,28",14,0,"5,2",nou
+126,vinagre,Vinagre,VINAGRE,4,Salsas,"0,6",0,"0,4",0,0,vinagre
+127,cerveza de raíz,Cerveza de raíz,CERVEZA DE RAÍZ,42,Bebidas Alcoholicas,"3,12",0,"0,5",0,0,cervesa d'arrel
+128,aguacate,Aguacate,AGUACATE,137,Vegetales,"0,4",12,"1,5",0,"6,3",alvocat
+129,wasabi,Wasabi,WASABI,105,Hierbas y especias,"22,63","0,61","4,62",0,"7,5",wasabi
+130,romero,Romero,ROMERO,345,Hierbas y especias,"46,4","15,2",5,0,"24,1",romaní
+131,almendra,Almendra,ALMENDRA,656,Frutos secos,"10,5","56,25",12,0,"8,22",ametlla
+132,nata,Nata,NATA,202,Productos lacteos,"3,4","19,98","2,51",70,0,nata
+133,ciruela,Ciruela,CIRUELA,54,Frutas,12,"0,2","0,75",0,"2,3",pruna
+134,olivas,Olivas,OLIVAS,120,Vegetales,1,"12,5","1,3",0,"4,8",olives
+135,barra de helado,Barra de helado,BARRA DE HELADO,200,Productos lacteos,"27,6","8,4","3,2",29,"0,9",barra de gelat
+136,yema de huevo,Yema de huevo,YEMA DE HUEVO,356,Productos avicolas,"2,3","31,5","16,5",1100,0,rovell d'ou
+137,sidra,Sidra,SIDRA,50,Bebidas,6,0,0,0,0,sidra
+138,soda con helado,Soda con helado,SODA CON HELADO,200,Productos lacteos,"27,6","8,4","3,2",29,"0,9",soda amb gelat
+139,red bull,Red bull,RED BULL,46,Bebidas,11,0,0,0,0,red bull
+140,zumo de limón,Zumo de limón,ZUMO DE LIMÓN,17,Bebidas,"3,6","0,1","0,4",0,"0,1",suc de llimona
+141,sirope de chocolate,Sirope de chocolate,SIROPE DE CHOCOLATE,279,Dulces,"65,1","1,13","2,1",0,"2,6",xarop de xocolata
+142,whiskey,Whiskey,WHISKEY,245,Bebidas Alcoholicas,"0,11",0,0,0,0,whiskey
+143,chorizo,Chorizo,CHORIZO,323,Carnes,"1,9","23,1",27,"72,6",0,xoriço
+144,coliflor,Coliflor,COLIFLOR,27,Vegetales,"2,04","0,87","2,76",0,"1,6",coliflor
+145,nutella,Nutella,NUTELLA,546,Grasas y aceites,"57,6","31,6",6,0,"3,4",nutella
+146,nocilla,Nocilla,NOCILLA,550,Grasas y aceites,60,32,"4,5",0,"1,8",nocilla
+147,manteca de cacao,Manteca de cacao,MANTECA DE CACAO,899,Grasas y aceites,0,"99,9",0,0,0,mantega de cacau
+148,vino tinto,Vino tinto,VINO TINTO,71,Bebidas Alcoholicas,"0,3",0,"0,23",0,0,vi negre
+149,girasol,Girasol,GIRASOL,574,Grasas y aceites,20,43,27,0,"2,7",gira-sol
+150,barbacoa,Barbacoa,BARBACOA,190,Carnes,1,13,19,0,0,barbacoa
+151,repollo,Repollo,REPOLLO,26,Vegetales,"3,7","0,4","1,8",0,"3,1",col
+152,oveja,Oveja,OVEJA,235,Carnes,0,"16,6","17,6",60,0,ovella
+153,agua de coco,Agua de coco,AGUA DE COCO,19,Frutas,"3,7","0,2","0,7",0,"1,1",aigua de coco
+154,arándanos,Arándanos,ARÁNDANOS,33,Frutas,"6,05","0,6","0,62",0,"4,9",nabius
+155,arroz con pollo,Arroz con pollo,ARROZ CON POLLO,217,Cereales y derivados,"22,9","2,1","25,7",58,"1,8",arròs amb pollastre
+156,pastrami,Pastrami,PASTRAMI,139,Carnes,"3,3","6,21","16,3",68,0,pastrami
+157,albahaca,Albahaca,ALBAHACA,178,Hierbas y especias,"20,5","3,98","14,4",0,"40,5",alfàbrega
+158,ricotta,Ricotta,RICOTTA,156,Productos lacteos,"4,09","10,44","11,32",41,0,ricotta
+159,frambuesas,Frambuesas,FRAMBUESAS,38,Frutas,7,"0,52","1,2",0,"6,7",gerds
+160,zumo de manzana,Zumo de manzana,ZUMO DE MANZANA,45,Frutas,11,0,"0,1",0,0,suc de poma
+161,feta,Feta,FETA,264,Productos lacteos,"4,09","21,28","14,21",89,0,feta
+162,queso romano,queso Romano,QUESO ROMANO,387,Productos lacteos,"3,63","26,94","31,8",104,0,formatge romà
+163,limones,Limones,LIMONES,29,Frutas,"9,32","0,3","1,1",0,"2,8",llimones
+164,salsa de queso,Salsa de queso,SALSA DE QUESO,110,Productos lacteos,"8,4","6,1","5,3",29,"0,5",salsa de formatge
+165,sopa de vegetales,Sopa de vegetales,SOPA DE VEGETALES,321,Sopas,"58,24","4,34","10,99",74,"2,2",sopa de vegetals
+166,apio,Apio,APIO,11,Vegetales,"1,5","0,1","0,9",0,2,api
+167,aguacates,Aguacates,AGUACATES,137,Vegetales,"0,4",12,"1,5",0,"6,3",alvocats
+168,bebida isotónica,Bebida isotónica,BEBIDA ISOTÓNICA,32,Bebidas,"7,9",0,0,0,0,beguda isotònica
+169,mangos,Mangos,MANGOS,59,Frutas,"13,4","0,2","0,6",0,"2,3",mango
+170,edamame,Edamame,EDAMAME,81,Vegetales,"6,53","4,45","8,47",0,"0,8",edamame
+171,salami,Salami,SALAMI,435,Carnes,"1,3","40,2","17,8",80,"0,1",salami
+172,fideos con pollo,Fideos con pollo,FIDEOS CON POLLO,321,Sopas,"58,24","4,34","10,99",74,"2,2",fideus amb pollastre
+173,provolone,Provolone,PROVOLONE,351,Productos lacteos,"2,14","26,62","25,58",69,0,provolone
+174,pasas,Pasas,PASAS,297,Frutas,"69,3","0,5","2,46",0,"6,5",panses
+175,mayonesa,Mayonesa,MAYONESA,298,Grasas y aceites,"10,8","28,1",1,50,0,maionesa
+176,especias,Especias,ESPECIAS,474,Hierbas y especias,"16,7","35,5","19,2",0,23,espècies
+177,aderezo ranchero,Aderezo ranchero,ADEREZO RANCHERO,484,Salsas,"6,69","51,39","1,03",33,"0,7",guarniment ranxer
+178,edam,Edam,EDAM,336,Productos lacteos,0,"28,3","20,7",80,0,edam
+179,crema de coco,Crema de coco,CREMA DE COCO,125,Frutas,"19,1","3,5","2,9",11,"0,01",crema de coco
+180,espárragos,Espárragos,ESPÁRRAGOS,24,Vegetales,"3,4","0,3","1,9",0,1,espàrrecs
+181,papaya,Papaya,PAPAYA,33,Frutas,"7,6",0,"0,5",0,"1,9",papaia
+182,coles de Bruselas,Coles de bruselas,COLES DE BRUSELAS,35,Vegetales,"3,5","0,5",4,0,"4,3",cols de brussel·les
+183,ponche,Ponche,PONCHE,224,Productos lacteos,"20,4","10,6","11,6","149,9",0,ponx
+184,salsa de spaguetti,Salsa de spaguetti,SALSA DE SPAGUETTI,145,Salsas,"3,4","11,1",8,25,"1,1",salsa de spaghetti
+185,pimiento morrón,Pimiento morrón,PIMIENTO MORRÓN,30,Productos lacteos,"5,2","0,4","1,19",0,"1,5",pebrot
+186,cerezas,Cerezas,CEREZAS,63,Frutas,"13,5","0,5","0,8",0,"1,5",cireres
+187,bacon canadiense,Bacon canadiense,BACON CANADIENSE,292,Carnes,0,"22,1","23,4",80,0,bacó canadenc
+188,nueces,Nueces,NUECES,595,Frutos secos,"3,3","63,28",14,0,"5,2",nous
+189,filete de lomo,Filete de lomo,FILETE DE LOMO,237,Carnes,0,"14,27",27,75,0,filet de llom
+190,boloñesa,Boloñesa,BOLOÑESA,145,Salsas,"3,4","11,1",8,25,"1,1",bolonyesa
+191,moras,Moras,MORAS,45,Vegetales,"6,24",1,"1,19",0,"3,16",mores
+192,lomo,Lomo,LOMO,237,Carnes,0,"14,27",27,75,0,llom
+193,lomo de cerdo,Lomo de cerdo,LOMO DE CERDO,237,Carnes,0,"14,27",27,75,0,llom de porc
+194,sopa de almejas,Sopa de almejas,SOPA DE ALMEJAS,163,Sopas,"19,01","5,58","8,83",17,2,sopa de cloïsses
+195,piel de patata,Piel de patata,PIEL DE PATATA,58,Vegetales,"12,4","0,1","2,6",0,"2,5",pell de patata
+196,potitos,Potitos,POTITOS,"64,8",Comida de bebes,6,"2,6","3,6",13,"1,5",potets
+197,grasa de tocino,Grasa de tocino,GRASA DE TOCINO,665,Grasas y aceites,0,71,"8,4",57,0,greix de cansalada
+198,plátanos,Plátanos,PLÁTANOS,89,Frutas,20,"0,3","1,2",0,"3,4",plàtans
+199,bálsamo,Bálsamo,BÁLSAMO,71,Salsas,"17,03",0,"0,49",0,0,bàlsam
+200,gouda,Gouda,GOUDA,326,Productos lacteos,0,"27,4","20,36",110,0,gouda
+201,hígado de pollo,Hígado de pollo,HÍGADO DE POLLO,137,Carnes,"1,2","4,7","22,12",492,0,fetge de pollastre
+202,perejil,Perejil,PEREJIL,35,Hierbas y especias,"2,7","1,3",3,0,5,julivert
+203,crema de trigo,Crema de trigo,CREMA DE TRIGO,44,Cereales y derivados,"9,04","0,18","1,24",0,"0,4",crema de blat
+204,caldo de pollo,Caldo de pollo,CALDO DE POLLO,5,Sopas,"0,62","0,12","0,39",0,0,brou de pollastre
+205,jamón serrano,Jamón Serrano,JAMÓN SERRANO,32,Vegetales,"6,7","0,44","1,74",0,"3,7",pernil serrà
+206,nestle,Nestle,NESTLE,279,Dulces,"65,1","1,13","2,1",0,"2,6",nestle
+207,aderezo italiano,Aderezo italiano,ADEREZO ITALIANO,61,Salsas,"2,1","5,8",0,0,0,guarniment italià
+208,codorniz,Codorniz,CODORNIZ,233,Productos avicolas,0,"14,04",25,86,0,guatlla
+209,azafrán,Azafrán,AZAFRÁN,350,Hierbas y especias,"61,5","5,9","11,4",0,"3,9",safrà
+210,salchichas de pavo,Salchichas de pavo,SALCHICHAS DE PAVO,156,Carnes,"14,7","7,8","6,9",0,0,salsitxes de gall dindi
+211,zumo de piña,Zumo de piña,ZUMO DE PIÑA,46,Frutas,"10,7","0,1","0,4",0,"0,1",suc de pinya
+212,tomillo,Tomillo,TOMILLO,336,Hierbas y especias,"57,1","7,4","9,1",0,"18,6",farigola
+213,sardina,Sardina,SARDINA,140,"Pescado, moluscos y marisco",0,"7,5","18,1",100,0,sardina
+214,chukrut,Chukrut,CHUKRUT,19,Vegetales,"4,28","0,14","0,91",0,"2,5",xucrut
+215,refresco de uva,Refresco de uva,REFRESCO DE UVA,46,Bebidas,"11,33",0,0,0,0,refresc de raïm
+216,rabo de toro,Rabo de toro,RABO DE TORO,200,Sopas,0,14,"18,6",70,0,cua de bou
+217,hamburguesa de pollo,Hamburguesa de pollo,HAMBURGUESA DE POLLO,148,Productos avicolas,"4,3","7,5",16,0,0,hamburguesa de pollastre
+218,zumo de lima,Zumo de lima,ZUMO DE LIMA,15,Frutas,"3,2","0,125","0,3",0,"0,1",suc de llima
+219,cebollino,Cebollino,CEBOLLINO,25,Vegetales,"1,9","0,525",3,0,"2,3",cibulet
+220,kellogs,Kellogs,KELLOGS,397,Cereales y derivados,88,"1,6","5,7",0,"1,5",kellogs
+221,hinojo,Hinojo,HINOJO,14,Hierbas y especias,"2,3",0,"1,1",0,"3,3",fonoll
+222,tortitas de patata,Tortitas de patata,TORTITAS DE PATATA,425,Vegetales,"67,6","13,6","5,7",0,"4,8",tortitas de patata
+223,limas,Limas,LIMAS,8,Frutas,1,"0,2","0,6",0,"2,8",llimes
+224,nueces pecanas,Nueces pecanas,NUECES PECANAS,736,Frutos secos,"5,2","72,1","10,1",0,"1,27",nous pecanes
+225,riñones,Riñones,RIÑONES,107,Carnes,0,"4,32","16,8",375,0,ronyons
+226,chalotes,Chalotes,CHALOTES,72,Vegetales,"16,8","0,1","2,5",0,0,escalunyes
+227,batido,Batido,BATIDO,102,Productos lacteos,"21,31","1,64","1,75",5,"1,6",batut
+228,gruyere,Gruyere,GRUYERE,375,Productos lacteos,"0,36","31,3","23,42",120,0,gruyere
+229,oregano,Oregano,OREGANO,418,Hierbas y especias,"68,92","10,3",11,0,"42,8",orenga
+230,gazpacho,Gazpacho,GAZPACHO,34,Sopas,"1,6","2,8","0,6",0,"0,2",gaspatxo
+231,costilla,Costilla,COSTILLA,279,Carnes,0,"23,6","17,1",77,0,costella
+232,sopa de guisantes,Sopa de guisantes,SOPA DE GUISANTES,59,Sopas,"9,78","1,58","1,72",0,"0,5",sopa de pèsols
+233,lentejas,Lentejas,LENTEJAS,333,Legumbres,"54,8","1,7",23,0,"11,2",llentia
+234,higos,Higos,HIGOS,70,Frutas,16,0,"1,2",0,"2,5",figues
+235,sopa de queso y brocoli,Sopa de queso y brocoli,SOPA DE QUESO Y BROCOLI,121,Sopas,"8,19","8,15","4,22",23,"0,8",sopa de formatge i bròquil
+236,remolachas,Remolachas,REMOLACHAS,30,Vegetales,"5,6","0,2","1,2",0,"2,5",remolatxes
+237,ruibarbo,Ruibarbo,RUIBARBO,92,Frutas,"23,46","0,09","0,44",0,"1,5",ruibarbre
+238,paprika,Paprika,PAPRIKA,503,Hierbas y especias,52,"30,9","4,6",0,"2,7",paprika
+239,estragón,Estragón,ESTRAGÓN,295,Hierbas y especias,"50,22","7,24","22,77",0,"7,4",estragó
+240,carne de cerdo,Carne de cerdo,CARNE DE CERDO,271,Carnes,0,"17,04","27,34",90,0,carn de porc
+241,piñones,Piñones,PIÑONES,683,Frutos secos,4,"62,61",14,0,"1,9",pinyons
+242,rollo de pollo,Rollo de pollo,ROLLO DE POLLO,146,Productos avicolas,0,"6,2","22,2",62,0,rotllo de pollastre
+243,carne strogonoff,Carne strogonoff,CARNE STROGONOFF,154,Carnes,"5,97","9,91","10,16",27,"0,5",carn strogonoff
+244,extracto de vainilla,Extracto de vainilla,EXTRACTO DE VAINILLA,288,Hierbas y especias,"12,65","0,06","0,06",0,0,extracte de vainilla
+245,semillas de mostaza,Semillas de mostaza,SEMILLAS DE MOSTAZA,133,Hierbas y especias,5,10,"5,9",0,"1,3",llavors de mostassa
+246,sopa de cebolla,Sopa de cebolla,SOPA DE CEBOLLA,46,Sopas,"6,68","1,42","3,06",0,"0,7",sopa d'esquer
+247,salsa de arándanos,Salsa de arándanos,SALSA DE ARÁNDANOS,242,Frutas,"58,7",0,"0,5",0,"1,1",salsa de nabius
+248,berro,Berro,BERRO,12,Vegetales,"0,3","0,2","2,2",0,"2,6",créixens
+249,chile en polvo,Chile en polvo,CHILE EN POLVO,314,Hierbas y especias,"54,66","16,76","12,26",0,"34,2",xili en pols
+250,dulce de leche,Dulce de leche,DULCE DE LECHE,313,Dulces,"53,5","7,8","7,2",0,0,Dolç de llet
+251,ciruelas,Ciruelas,CIRUELAS,54,Frutas,12,"0,2","0,75",0,"2,3",prunes
+252,arenque,Arenque,ARENQUE,253,"Pescado, moluscos y marisco",0,"13,9",23,50,0,arengada
+253,rúcula,Rúcula,RÚCULA,31,Vegetales,"3,65","0,66","2,58",0,"1,6",ruca
+254,queso de untar,Queso de untar,QUESO DE UNTAR,371,Productos lacteos,"2,3","32,4","15,63","94,1",0,formatge d'untar
+255,kielbasa,Kielbasa,KIELBASA,310,Carnes,"2,14","27,15","13,26",67,0,kielbasa
+256,cáscara de naranja,Cáscara de naranja,CÁSCARA DE NARANJA,97,Frutas,25,"0,2","1,5",0,"10,6",pela de taronja
+257,hojas de mostaza,Hojas de mostaza,HOJAS DE MOSTAZA,133,Hierbas y especias,5,10,"5,9",0,"1,3",fulles de mostassa
+258,pollo de corral,Pollo de corral,POLLO DE CORRAL,121,Productos avicolas,"0,5","2,6","23,9",0,0,pollastre de corral
+259,daiquiri,Daiquiri,DAIQUIRI,185,Bebidas Alcoholicas,"6,9","0,06","0,06",0,"0,1",daiquiri
+260,rábanos,Rábanos,RÁBANOS,16,Vegetales,"2,6","0,3","0,6",0,"1,2",raves
+261,pavo molido,Pavo molido,PAVO MOLIDO,235,Productos avicolas,0,"13,15","27,36",102,0,gall dindi mòlt
+262,zumo de uva,Zumo de uva,ZUMO DE UVA,51,Frutas,12,0,"0,6",0,"0,15",suc de raïm
+263,pechuga de pavo,Pechuga de pavo,PECHUGA DE PAVO,145,Productos avicolas,0,"2,64","29,9",69,0,pit de gall dindi
+264,semillas de sésamo,Semillas de sésamo,SEMILLAS DE SÉSAMO,562,Hierbas y especias,10,50,19,0,11,llavors de sèsam
+265,piña colada,Piña colada,PIÑA COLADA,173,Bebidas Alcoholicas,"22,29","1,91","0,44",0,"0,3",pinya colada
+266,chile picante,Chile picante,CHILE PICANTE,32,Vegetales,"0,44","6,7","1,74",0,"3,7",Xile picant
+267,sabor vainilla,Sabor vainilla,SABOR VAINILLA,288,Hierbas y especias,"12,65","0,06","0,06",0,0,sabor vainilla
+268,copos de maiz,Copos de maiz,COPOS DE MAIZ,381,Cereales y derivados,86,"0,5","7,8",0,2,flocs de blat de moro
+269,sopa minestrone,Sopa minestrone,SOPA MINESTRONE,99,Sopas,"9,25","5,36","3,82",4,"1,6",sopa minestrone
+270,brocoli con queso,Brocoli con queso,BROCOLI CON QUESO,134,Sopas,"9,5","6,9","8,4",29,"0,5",bròquil amb formatge
+271,semilla de amapola,Semilla de amapola,SEMILLA DE AMAPOLA,533,Hierbas y especias,"23,69","44,7","18,04",0,10,Llavor de rosella
+272,zumo de zanahoria,Zumo de zanahoria,ZUMO DE ZANAHORIA,23,Vegetales,"4,75","0,15","0,63",0,"0,62",suc de pastanaga
+273,nuez moscada,Nuez moscada,NUEZ MOSCADA,547,Hierbas y especias,"49,29","36,3","5,8",0,"20,8",nou moscada
+274,gotas de miel,Gotas de miel,GOTAS DE MIEL,304,Frutas,"82,4",0,"0,3",0,"0,2",gotes de mel
+275,aceite vegetal,Aceite vegetal,ACEITE VEGETAL,884,Grasas y aceites,0,100,0,0,0,oli vegetal
+276,saboya,Saboya,SABOYA,27,Vegetales,"6,1","0,1",2,0,"3,1",savoia
+277,queso de cerdo,Queso de cerdo,QUESO DE CERDO,157,Productos lacteos,0,"10,9","13,83",69,0,formatge de porc
+278,salchichas de cerdo,Salchichas de cerdo,SALCHICHAS DE CERDO,304,Carnes,0,"26,53","15,09",72,0,salsitxes de porc
+279,noodles con carne,Noodles con carne,NOODLES CON CARNE,90,Sopas,14,"0,8","5,4",0,0,noodles amb carn
+280,pollo con champiñones,Pollo con champiñones,POLLO CON CHAMPIÑONES,278,Sopas,12,"9,8","31,5",69,0,pollastre amb xampinyons
+281,crema de champiñones,Crema de champiñones,CREMA DE CHAMPIÑONES,55,Sopas,9,"0,9","1,5",0,"0,5",crema de xampinyons
+282,salchichas bratwurst,Salchichas bratwurst,SALCHICHAS BRATWURST,288,Carnes,"1,3",26,"12,7",65,"0,1",salsitxes bratwurst
+283,coles,Coles,COLES,36,Vegetales,"2,54","0,9","4,3",0,"4,2",cols
+284,cúrcuma,Cúrcuma,CÚRCUMA,354,Hierbas y especias,"64,93","9,88","7,83",0,"21,1",cúrcuma
+285,judías de lima,Judías de lima,JUDÍAS DE LIMA,195,Legumbres,"32,09","2,81","10,47",0,8,jueves de llima
+286,molleja,Molleja,MOLLEJA,132,Productos avicolas,0,"7,8","15,3",260,0,pedrer
+287,jamon de pavo,Jamon de pavo,JAMON DE PAVO,114,Productos avicolas,"0,4",3,21,50,0,pernil de gall dindi
+288,granadas,Granadas,GRANADAS,63,Frutas,"13,7","0,3",1,0,"3,5",granades
+289,mandarinas,Mandarinas,MANDARINAS,40,Frutas,9,0,"0,8",0,"1,9",mandarines
+290,sopa de fideos con carne,Sopa de fideos con carne,SOPA DE FIDEOS CON CARNE,19,Sopas,"3,05","0,35","0,9",3,"0,2",sopa de fideus
+291,hojas de nabo,Hojas de nabo,HOJAS DE NABO,19,Vegetales,"3,23","0,27","2,17",0,"2,2",fulles de nap
+292,cocktail de frutas,Cocktail de frutas,COCKTAIL DE FRUTAS,64,Frutas,"15,5",0,"0,35",0,"0,8",còctel de fruites
+293,shiitake,Shiitake,SHIITAKE,34,Vegetales,7,"0,5","2,2",0,"2,5",shiitake
+294,semillas de chia,Semillas de chia,SEMILLAS DE CHIA,463,Frutos secos,"2,6","33,9",22,0,"2,6",llavors de chia
+295,pollo y cerdo,Pollo y cerdo,POLLO Y CERDO,392,Productos avicolas,"0,5",20,"51,24",90,0,pollastre i porc
+296,fabada,Fabada,FABADA,162,Legumbres,"14,94","8,84","6,37",7,"3,2",fabada
+297,sandwich de helado con cookies,Sandwich de helado con cookies,SANDWICH DE HELADO CON COOKIES,363,Productos lacteos,"44,3","18,1",5,0,"1,2",sandvitx de gelat
+298,empanado,Empanado,EMPANADO,330,Hierbas y especias,"48,3","12,22","6,69",7,0,arrebossat
+299,nabos,Nabos,NABOS,19,Vegetales,"3,2","0,2","0,9",0,2,naps
+300,melones,Melones,MELONES,27,Frutas,6,0,"0,6",0,1,melons
+301,nectarinas,Nectarinas,NECTARINAS,43,Frutas,9,"0,1","1,4",0,"2,2",nectarines
+302,cheshire,Cheshire,CHESHIRE,387,Productos lacteos,"4,78","30,6","23,37",103,0,cheshire
+303,puerros,Puerros,PUERROS,24,Vegetales,"3,7","0,3","1,6",0,"2,8",porros
+304,crema de pollo,Crema de pollo,CREMA DE POLLO,90,Sopas,13,"3,2",2,0,"0,2",crema de pollastre
+305,alcaparras,Alcaparras,ALCAPARRAS,26,Vegetales,"2,1","0,86","2,36",0,"1,5",tàperes
+306,nesquik,Nesquik,NESQUIK,383,Dulces,"79,2","3,6","4,8",0,"7,2",nesquik
+307,colacao,ColaCao,COLACAO,376,Dulces,78,"2,4","6,8",0,"7,8",colacao
+308,chocolate en polvo,Chocolate en polvo,CHOCOLATE EN POLVO,400,Dulces,"71,4","7,6","6,9",0,"9,2",xocolata en pols
+309,raiz de jengibre,Raiz de jengibre,RAIZ DE JENGIBRE,52,Vegetales,"9,5","0,7","1,7",0,0,arrel de gingebre
+310,faisán,Faisán,FAISÁN,312,Productos avicolas,0,"15,3","40,97",113,0,faisà
+311,caquis,Caquis,CAQUIS,70,Frutas,"18,59","0,19","0,58",0,"3,6",caquis
+312,melocotón y mango,Melocotón y mango,MELOCOTÓN Y MANGO,49,Bebidas,"11,2","0,1","0,6",0,"1,85",préssec i poma
+313,wakame,Wakame,WAKAME,19,Vegetales,4,"0,3","2,1",0,"3,7",wakame
+314,pastinacas,Pastinacas,PASTINACAS,355,Vegetales,73,"1,6",11,0,0,escurçanes
+315,margarina,Margarina,MARGARINA,718,Grasas y aceites,"0,9",80,"0,9",0,0,margarina
+316,radicchio,Radicchio,RADICCHIO,23,Vegetales,"4,48","0,25","1,43",0,"0,9",radicchio
+317,harina,Harina,HARINA,333,Cereales y derivados,"71,5",0,10,0,"3,5",farina
+318,durian,Durian,DURIAN,147,Frutas,"27,9","5,33","1,47",0,"3,8",durien
+319,hojas de uva,Hojas de uva,HOJAS DE UVA,93,Vegetales,"17,3","2,1","5,6",0,11,fulles de raïm
+320,zumo de tomate,Zumo de tomate,ZUMO DE TOMATE,14,Vegetales,"2,6","0,5",1,0,"0,4",suc de tomàquet
+321,sopa de pollo con verduras,Sopa de pollo con verduras,SOPA DE POLLO CON VERDURAS,31,Sopas,"3,56","1,18","1,5",4,"0,4",sopa de pollastre
+322,sopa de tomate y nata,Sopa de tomate y nata,SOPA DE TOMATE Y NATA,42,Sopas,"7,35","1,2","1,25",2,"0,4",sopa de tomàquet
+323,alcachofas,Alcachofas,ALCACHOFAS,18,Vegetales,"1,2","0,16","2,9",0,"9,4",carxofes
+324,caldo de carne,Caldo de carne,CALDO DE CARNE,3,Sopas,"0,33","0,08","0,35",0,0,brou de carn
+325,sopa de brocoli y crema,Sopa de brocoli y crema,SOPA DE BROCOLI Y CREMA,105,Sopas,"7,84","7,12","3,03",11,"1,1",sopa de bròquil i crema
+326,pastel de calabaza,Pastel de calabaza,PASTEL DE CALABAZA,210,Hierbas y especias,"27,3","9,5","3,9",20,"2,7",pastís de carbassa
+327,cardamomo,Cardamomo,CARDAMOMO,311,Hierbas y especias,"68,47","6,7","10,76",0,28,cardamom
+328,albóndigas de pollo,Albóndigas de pollo,ALBÓNDIGAS DE POLLO,161,Productos avicolas,"6,94","5,62","19,39",82,"0,5",mandonguilles de pollastre
+329,sopa de queso y crema,Sopa de queso y crema,SOPA DE QUESO Y CREMA,121,Sopas,"8,19","8,15","4,22",23,"0,8",sopa de formatge i crema
+330,sofrito,Sofrito,SOFRITO,210,Sopas,"4,71","20,97","1,11",0,"1,4",sofregit
+331,nueces de macadamia,Nueces de macadamia,NUECES DE MACADAMIA,718,Frutos secos,"13,82","75,77","7,91",0,"8,6",nous de macadàmia
+332,zumo de granada,Zumo de granada,ZUMO DE GRANADA,71,Frutas,"15,7","0,5","0,6",0,"2,4",suc de magrana
+333,salchicha de ternera,Salchicha de ternera,SALCHICHA DE TERNERA,325,Carnes,"3,99","29,08","11,04",54,0,salsitxa de vedella
+334,salchicha polaca,Salchicha polaca,SALCHICHA POLACA,310,Carnes,"2,14","27,15","13,26",67,0,salsitxa polonesa
+335,mantequilla de anacardo,Mantequilla de anacardo,MANTEQUILLA DE ANACARDO,653,Frutos secos,18,54,24,0,"2,7",mantega d'anacard
+336,sopa de almejas New England,Sopa de almejas new england,SOPA DE ALMEJAS NEW ENGLAND,67,Sopas,"7,79","2,39","3,62",7,"0,8",sopa de cloïsses
+337,macarrones,Macarrones,MACARRONES,203,Cereales y derivados,"21,46","9,4","7,94",17,"1,1",macarrons
+338,macarrones con queso,Macarrones con queso,MACARRONES CON QUESO,203,Cereales y derivados,"21,46","9,4","7,94",17,"1,1",macarrons amb formatge
+339,albaricoques,Albaricoques,ALBARICOQUES,48,Frutas,"11,12","0,39","1,4",0,2,albercocs
+340,endibias,Endibias,ENDIBIAS,9,Vegetales,"0,7","0,2","1,1",0,"1,9",endívies
+341,pudín de maíz,Pudín de maíz,PUDÍN DE MAÍZ,227,Cereales y derivados,"43,8","1,9","6,4",0,0,púding de blat de moro
+342,corazones de palma,Corazones de palma,CORAZONES DE PALMA,"43,2",Vegetales,8,0,0,0,0,cors de palma
+343,nopales,Nopales,NOPALES,16,Vegetales,"3,33","0,09","1,32",0,"2,2",nopales
+344,mortadela,Mortadela,MORTADELA,295,Carnes,3,"25,39",14,72,0,mortadel·la
+345,soja,Soja,SOJA,351,Legumbres,"9,7034","18,625","35,9",0,"15,7",soja
+346,solomillo,Solomillo,SOLOMILLO,131,Carnes,0,"5,1",21,72,0,filet
+347,aderezo ruso,Aderezo ruso,ADEREZO RUSO,141,Salsas,"27,6",4,"0,5",0,"0,3",guarniment rus
+348,polvo de cebolla,Polvo de cebolla,POLVO DE CEBOLLA,342,Hierbas y especias,79,1,10,0,15,pols de ceba
+349,espirulina,Espirulina,ESPIRULINA,290,Vegetales,"23,9","7,72","57,47",0,"3,6",espirulina
+350,castañas,Castañas,CASTAÑAS,245,Frutos secos,"52,96","2,2","3,17",0,"5,1",castanyes
+351,refresco de naranja,Refresco de naranja,REFRESCO DE NARANJA,39,Bebidas,"9,365",0,"0,1",0,0,refresc de taronja
+352,escarola,Escarola,ESCAROLA,12,Vegetales,1,"0,2","1,6",0,"2,6",escarola
+353,sopa de carne con vegetales,Sopa de carne con vegetales,SOPA DE CARNE CON VEGETALES,83,Sopas,"8,98","3,07","4,83",5,"0,7",sopa de carn amb vegetals
+354,roquefort,Roquefort,ROQUEFORT,354,Productos lacteos,0,"32,8","15,4",100,0,rocafort
+355,carne roja,Carne roja,CARNE ROJA,110,Carnes,0,"2,59","20,2",79,0,carn vermella
+356,tequila sunrise,Tequila sunrise,TEQUILA SUNRISE,110,Bebidas Alcoholicas,"8,59","0,1","0,34",0,0,sortida del sol de tequila
+357,whiskey amargo,Whiskey amargo,WHISKEY AMARGO,245,Bebidas Alcoholicas,"0,11",0,0,0,0,whisky amarg
+358,carne con verduras,Carne con verduras,CARNE CON VERDURAS,128,Sopas,"9,6",2,"18,1",24,"1,2",carn amb verdures
+359,productos lácteos,Productos lácteos,PRODUCTOS LÁCTEOS,73,Productos lacteos,"5,4","3,9","4,3",0,0,productes lactis
+360,mix de chocolates,Mix de chocolates,MIX DE CHOCOLATES,505,Dulces,"59,6","34,2","3,9",0,"5,5",mix de xocolates
+361,salsa de miel y mostaza,Salsa de miel y mostaza,SALSA DE MIEL Y MOSTAZA,133,Salsas,5,10,"5,9",0,"1,3",salsa de mel i mostassa
+362,piel de limón,Piel de limón,PIEL DE LIMÓN,47,Frutas,16,"0,3","1,5",0,"10,6",pell de llimona
+363,sopa de pollo y maíz,Sopa de pollo y maíz,SOPA DE POLLO Y MAÍZ,392,Sopas,"85,6","0,96","8,4",0,"85,5",sopa de pollastre i blat de moro
+364,guisantes con zanahoria,Guisantes con zanahoria,GUISANTES CON ZANAHORIA,63,Vegetales,10,"0,4","2,6",0,"4,1",Pèsols amb pastanaga
+365,salvado de avena,Salvado de avena,SALVADO DE AVENA,360,Cereales y derivados,"44,1","8,7","17,6","1,1","16,5",salvat de civada
+366,frutos secos,Frutos secos,FRUTOS SECOS,594,Frutos secos,"25,35","51,45","17,3",0,9,fruita seca
+367,mandioca,Mandioca,MANDIOCA,160,Vegetales,"38,06","0,28","1,36",0,"1,8",mandioca
+368,crema,Crema,CREMA,159,Productos lacteos,"22,3","5,36","4,9",120,"0,3",crema
+369,miel,Miel,MIEL,315,Dulces,"76,8",0,"0,5",0,0,mel
+370,naranja,Naranja,NARANJA,76,Frutas,"17,2",0,"1,6",0,4,taronja
+371,aceite,Aceite,ACEITE,884,Grasas y aceites,0,100,0,0,0,oli
+372,hígado,Hígado,HÍGADO,137,Carnes,"1,2","4,7","22,12",492,0,fetge
+373,manzana,Manzana,MANZANA,50,Frutas,12,0,"0,3",0,2,poma
+374,pato,Pato,PATO,138,Productos avicolas,0,"6,5","19,7",110,0,ànec
+375,emú,Emú,EMÚ,102,Carnes,0,"0,74","22,25",71,0,emú
+376,manteca de cerdo,Manteca de cerdo,MANTECA DE CERDO,902,Grasas y aceites,0,100,0,95,0,mantega de porc
+377,aderezo,Aderezo,ADEREZO,449,Salsas,"2,5","50,1",0,0,0,guarniment
+378,pechuga,Pechuga,PECHUGA,105,Productos avicolas,0,"1,2","23,1",58,0,pit
+379,algas,Algas,ALGAS,38,Vegetales,"8,43","0,26","2,38",0,"0,8",algues
+380,vainas,Vainas,VAINAS,43,Vegetales,"7,55","0,2","2,8",0,"2,6",beines
+381,ostra,Ostra,OSTRA,64,Productos avicolas,"2,76","2,21","8,145","53,5",0,ostra
+382,setas,Setas,SETAS,26,Vegetales,4,"0,3","1,8",0,0,bolets
+383,tortilla de patatas,Tortilla de patatas,TORTILLA DE PATATAS,126,Productos avicolas,"9,26","6,93","6,63",179,"0,8",truita de patates
+384,tortilla,Tortilla,TORTILLA,170,Productos avícolas,"0,4","12,28","14,6",350,0,truita
+385,paella,Paella,PAELLA,173,Cereales y derivados,"17,44","5,74","12,37","44,81","0,5",paella
+386,torrija,Torrija,TORRIJA,236,Cereales y derivados,"18,31",16,"5,06",88,1,llesque amb ou
+387,torrijas,Torrijas,TORRIJAS,236,Cereales y derivados,"18,31",16,"5,06",88,1,llesques amb ou
+388,cocido,Cocido,COCIDO,202,Carnes,"7,69","12,07","15,16",47,"1,6",cuit
+389,sushi,Sushi,SUSHI,143,"Pescado, moluscos y marisco","29,9","0,42","4,3",3,"0,8",sushi

@@ -1,0 +1,38 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dreampy-web
+data:
+    ES_ENDPOINT_EXTERNAL: "sefarad-elasticsearch.cluster.gsi.dit.upm.es"
+    FUSEKI_ENDPOINT_EXTERNAL: "sefarad-fuseki.cluster.gsi.dit.upm.es"
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: dreampy-web
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        role: dreampy-web
+        app: dreampy-web
+    spec:
+      imagePullSecrets:
+      - name: registry.cluster.gsi.dit.upm.es
+      containers:
+      - name: dreampy
+        image: registry.cluster.gsi.dit.upm.es/tfg/tfg-danielsuarez:0.0.2
+        imagePullPolicy: Always
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "100m"
+        ports:
+          - name: web
+            containerPort: 8080
+        envFrom:
+        - configMapRef:
+            name: dreampy-web
+
